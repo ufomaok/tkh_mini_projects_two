@@ -57,10 +57,10 @@ if __name__ == "__main__":
     key = int(sys.argv[2])
 
 
-    # encrypt your word
+    #Encrypt word
     encrypted = encrypt(message, key)
 
-    # decrypt your encrypted word
+    #Decrypt word
     decrypted = decrypt(encrypted, key)
 
     #Printing encrypted and decrypted word in terminal 
